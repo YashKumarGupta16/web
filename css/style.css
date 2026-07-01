@@ -1,0 +1,45 @@
+/* # is for id  selector and . is for class selector....id name unique ,class name can be same */
+#p2{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+#p3{
+    background-color: cornflowerblue;
+    color: black;
+    border-color:black;
+    border-width: 2px;
+    border-style: solid;
+    
+}
+#p4{
+    background-color: deeppink;
+    color: black;
+    margin: 2px;
+    padding: 20px;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; /* Optional: makes text readable */
+}
+
+.container{
+    background-color: aliceblue;
+    color:black ;
+    margin: 8px;
+}
+#p5{
+    display: flex;
+    justify-content: center;
+    /* column me ho to align kaam karega justify ki jagah */
+}
+
+/* flex se 1d mein work kar sakte h aur grid se 2d */
+
+
+/* margin hota h do elements ke beech space and padding hota h ek hi element ke andar space */
